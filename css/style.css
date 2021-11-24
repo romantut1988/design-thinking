@@ -78,7 +78,11 @@ body {
 }
 
 
-.top {
+
+.top__inner {
+    background-image: url("../images/top-bg.svg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
     padding: 133px 0 80px;
 }
 
@@ -121,6 +125,7 @@ body {
     content: '';
     position: absolute;
     left: 0;
+    top: 2px;
     width: 17px;
     height: 19px;
     background-image: url("../images/play-icon.svg");
