@@ -137,8 +137,11 @@ body {
 }
 
 .tools__inner {
-    background: linear-gradient(179.61deg, rgba(255, 229, 210, 0.629261) 0.33%, rgba(255, 244, 229, 0.0001) 99.67%);
     padding-bottom: 90px;
+    background-image: url("../images/tools-bg.svg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
 }
 
 .tools__title {
@@ -154,7 +157,7 @@ body {
 .tools__items {
     display: flex;
     justify-content: space-between;
-    padding-top: 8px;
+    padding: 8px 16px 0;
     margin-bottom: 60px;
 }
 
@@ -184,3 +187,5 @@ body {
     width: 173px;
     margin: 0 auto;
 }
+
+
