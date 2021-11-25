@@ -223,6 +223,25 @@ body {
     margin-bottom: 30px;
 }
 
+.direction__list {
+    list-style: none;
+}
+
+.direction__list-item {
+    position: relative;
+    margin-bottom: 30px;
+    padding-left: 65px;
+}
+
+.direction__list-item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 35px;
+    height: 35px;
+    background-image: url("../images/check.svg");
+}
+
 .direction__item-text {
     margin-bottom: 25px;
 }
