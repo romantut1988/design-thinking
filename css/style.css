@@ -236,6 +236,7 @@ body {
 .direction__list-item::before {
     content: '';
     position: absolute;
+    top: 9px;
     left: 0;
     width: 35px;
     height: 35px;
