@@ -264,6 +264,9 @@ body {
     position: absolute;
     width: 98px;
     height: 98px;
+}
+
+.team__item--1 {
     top: 157px;
     right: 95px;
 }
@@ -288,8 +291,25 @@ body {
     white-space: nowrap;
 }
 
-.team__item-text--right {
+.team__item-text--right::after,
+.team__item-text--right::before {
+    content: '';
+    position: absolute;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+}
 
+.team__item-text--right::after {
+    width: 17px;
+    height: 17px;
+    bottom: -7px;
+    right: 30px;
+}
+.team__item-text--right::before {
+    width: 9px;
+    height: 9px;
+    bottom: -20px;
+    right: 9px;
 }
 
 .team__box {
