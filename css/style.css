@@ -271,6 +271,26 @@ body {
     right: 95px;
 }
 
+.team__item--2 {
+    top: 223px;
+    left: 0;
+}
+
+.team__item--3 {
+    bottom: 257px;
+    right: 0;
+}
+
+.team__item--4 {
+    bottom: 223px;
+    left: 210px;
+}
+
+.team__item--5 {
+    bottom: 135px;
+    right: 300px;
+}
+
 .team__item-img {
     width: 98px;
     height: 98px;
@@ -291,21 +311,49 @@ body {
     white-space: nowrap;
 }
 
+.team__item-text.team__item-text--left {
+    top: -41px;
+    right: auto;
+    left: 55px;
+}
+
+.team__item-text--left::before {
+    width: 17px;
+    height: 17px;
+    bottom: -7px;
+    right: 30px;
+}
+
 .team__item-text--right::after,
-.team__item-text--right::before {
+.team__item-text--right::before,
+.team__item-text--left::before,
+.team__item-text--left::after {
     content: '';
     position: absolute;
     background-color: #FFFFFF;
     border-radius: 50%;
 }
 
-.team__item-text--right::after {
+.team__item-text--left::after {
+    left: 40px;
+    right: auto;
+}
+
+.team__item-text--left::before {
+    left: 23px;
+    right: auto;
+}
+
+.team__item-text--right::after,
+.team__item-text--left::after {
     width: 17px;
     height: 17px;
     bottom: -7px;
     right: 30px;
 }
-.team__item-text--right::before {
+
+.team__item-text--right::before,
+.team__item-text--left::before {
     width: 9px;
     height: 9px;
     bottom: -20px;
