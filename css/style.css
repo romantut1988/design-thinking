@@ -246,3 +246,9 @@ body {
 .direction__item-text {
     margin-bottom: 25px;
 }
+
+
+.team {
+    background-image: url("../images/team-bg.svg");
+
+}
