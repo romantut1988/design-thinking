@@ -531,3 +531,8 @@ body {
     }
 }
 
+@media (max-width: 400px) {
+    body {
+        background-color: #000000;
+    }
+}
