@@ -1,8 +1,10 @@
-$(function(){
+$(function (){
+
     $('.slider').slick({
-        sliderToShow: 3,
-        slidesToScroll:3,
+        slidesToShow: 3,
+        slidesToScroll: 3,
         arrows: false,
         dots: true
-    })
+    });
+
 });

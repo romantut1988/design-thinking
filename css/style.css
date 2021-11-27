@@ -401,3 +401,31 @@ body {
     margin-bottom: 55px;
     color: #544837;
 }
+
+.slider {
+    margin: 0 -20px;
+}
+
+.slider__item {
+    padding: 0 20px;
+}
+
+.slider__item-img {
+    width: 348px;
+    height: 185px;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-bottom: 25px;
+}
+
+.slider__item-info {
+    margin-bottom: 12px;
+    line-height: 28px;
+}
+
+.slider__item-author {
+    font-weight: 700;
+    text-decoration: none;
+    color: #2F281E;
+}
