@@ -464,3 +464,63 @@ body {
 .slick-dots .slick-active button {
     background-color: #FF9900;
 }
+
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 105px 0 100px;
+    border-top: 1px solid rgba(188, 208, 229, 0.496913);
+}
+
+.footer__menu {
+    width: 135px;
+}
+
+.footer__menu-title,
+.footer__form-text {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 35px;
+    color: #2F281E;
+}
+
+.footer__list {
+    list-style: none;
+}
+
+.footer__menu-link {
+    font-size: 16px;
+    line-height: 35px;
+    color: #544837;
+    text-decoration: none;
+}
+
+.footer__form {
+    width: 330px;
+}
+
+.footer__form-input {
+    height: 48px;
+    padding: 0 15px;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+    width: 100%;
+    margin-bottom: 21px;
+    display: inline-block;
+}
+
+.footer__form-input::placeholder {
+    color: #BCD0E5;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.footer__form-btn {
+    color: #FFFFFF;
+    background-color: #FF9900;
+    padding: 8px 15px 7px;
+    border-radius: 4px;
+    border: none;
+}
+
