@@ -429,3 +429,38 @@ body {
     text-decoration: none;
     color: #2F281E;
 }
+
+.slider__item-title {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    text-decoration: none;
+    transition: all .3s;
+    margin-bottom: 84px;
+}
+
+.slider__item-title:hover {
+    color: #FF9900;
+}
+
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.slick-dots button {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: none;
+    font-size: 0;
+    background-color: #EFEFEF;
+    padding: 0;
+    margin: 0 5px;
+}
+
+.slick-dots .slick-active button {
+    background-color: #FF9900;
+}
