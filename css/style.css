@@ -38,6 +38,40 @@ body {
     margin-left: auto;
 }
 
+.menu__btn {
+    width: 40px;
+    height: 30px;
+    display: none;
+}
+
+.menu__btn::after,
+.menu__btn::before {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    background-color: #000;
+    left: 0;
+}
+
+.menu__btn::before {
+    top: 0;
+}
+
+.menu__btn::after {
+    bottom: 0;
+}
+
+.menu__btn span {
+    position: absolute;
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: black;
+    top: 14px;
+    left: 0;
+}
+
 .menu__list {
     display: flex;
 }
@@ -523,6 +557,7 @@ body {
     border-radius: 4px;
     border: none;
 }
+
 
 
 
